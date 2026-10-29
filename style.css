@@ -1,9 +1,13 @@
 body {
-background-image: url('blob:https://chatgpt.com/a9cd038d-08d0-4650-8908-1e30add91011');
 
 }
 
 .navbar {
     height: 100px;
     background-color: black;
+}
+
+.bg-index {
+    background-image: url('https://kommodo.ai/i/tdvDSSIijHOfNzRnszMn');
+
 }
