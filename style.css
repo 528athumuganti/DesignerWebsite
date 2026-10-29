@@ -4,15 +4,20 @@ background-color: purple;
 
 .navbar {
     height: 100px;
-    background-color: black;
+
 }
 
-.bg-index {
-    background-image: url('https://kommodo.ai/i/tdvDSSIijHOfNzRnszMn');
 
+
+.index-bg {
+    background-image: url('https://codehs.com/uploads/c09db10c9d4a3a76b889e2cc0d7d94f2');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; /* or contain */
+    background-attachment: fixed;
 }
 
 footer {
-height: 100px;
-
+height: 75px;
+margin-top: 50px;
 }
