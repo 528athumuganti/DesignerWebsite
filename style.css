@@ -1,5 +1,5 @@
 body {
-
+background-color: purple;
 }
 
 .navbar {
@@ -9,5 +9,10 @@ body {
 
 .bg-index {
     background-image: url('https://kommodo.ai/i/tdvDSSIijHOfNzRnszMn');
+
+}
+
+footer {
+height: 100px;
 
 }
