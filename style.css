@@ -1,21 +1,63 @@
 body {
-background-color: purple;
+    background-color: #000000;
+    position: relative;
 }
+
 
 .navbar {
     height: 100px;
 
 }
 
-
-
-.index-bg {
-    background-image: url('https://codehs.com/uploads/c09db10c9d4a3a76b889e2cc0d7d94f2');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover; /* or contain */
-    background-attachment: fixed;
+.navbar .nav-link {
+    color: #ffffff !important;
 }
+
+.navbar .nav-link:hover {
+    color: #cccccc !important;
+}
+
+
+
+/* Create an isolated background layer behind your page content */
+.index-bg::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Keeps it behind all HTML content */
+  
+  /* Your background image */
+  background-image: url('Add a subheading (3).png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  /* Transition for smooth fading */
+  transition: opacity 0.4s linear;
+}
+
+.index-bg::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  
+  background-image: url('Add a subheading (3).png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  /* Reads the dynamic opacity from the JavaScript scroll */
+  opacity: var(--bg-opacity, 1);
+}
+
+
 
 footer {
 height: 75px;
