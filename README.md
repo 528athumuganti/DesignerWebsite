@@ -25,7 +25,7 @@ Regarding AI, the only one i used was chat GPT to help me with the Javascript fo
 AI Prompt Evidence 
 
 The exact photos I gave to AI to alter without any prior changes are:
-<img src="blob:https://chatgpt.com/6ff2a0a4-893d-4ca5-b8a4-405003fb3ab6">
+<img src="[blob:https://chatgpt.com/6ff2a0a4-893d-4ca5-b8a4-405003fb3ab6](https://place-des-arts.com/cdn/shop/files/gWiXgQxLwLZp93x4g.jpg?v=1786706614)">
 <img src="blob:https://chatgpt.com/aa62b460-4604-402f-8a94-6c0201235e16">
 <img src="blob:https://chatgpt.com/6fcb1b09-512b-45dc-b92f-1ef24bdece1a">
 <img src="blob:https://chatgpt.com/0ddc4a4e-58d1-4a39-9e7c-4ba2a7f81073">
